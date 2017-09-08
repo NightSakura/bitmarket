@@ -51,7 +51,7 @@
 	<bean id="jedisConnFactory"
 		class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
 		 <property name="port" value="6379" />
-        <property name="hostName" value="192.168.1.157" />
+        <property name="hostName" value="10.52.7.188" />
         <property name="password" value="admin" />
 		<property name="poolConfig" ref="poolConfig" />
 	</bean>
